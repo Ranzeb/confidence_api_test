@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project allow user to fetch data from Confidence API and display them thanks to an Infinite Scroll.
+
+Users can display the first three element and anytime that they scroll the page, another 3 elements are displayed untill max fetched values.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
