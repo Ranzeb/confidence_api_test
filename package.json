@@ -2,12 +2,18 @@
   "name": "confidence_api_test",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://dev-api.confidence.org/v2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
+    "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-query": "^3.39.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +40,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.11",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "http-proxy-middleware": "^2.0.6",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
